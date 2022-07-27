@@ -1,0 +1,149 @@
+### CHECKING... ###
+
+ ent:                          installed
+ rzip:                         installed
+ bzip2:                        installed
+ gzip:                         installed
+ lzma:                         installed
+
+ dataset/bible.txt:            exist
+ dataset/finance.csv:          exist
+ dataset/jquery-3.6.0.js:      exist
+ dataset/random.txt:           exist
+
+
+
+### COMPRESSING AND DECOMPRESSING... ###
+
+>>> INFO <<<
+
+> bible.txt
+ ENTROPY:                      4.373 bits per byte
+ SIZE:                         3982.202 KB
+
+> finance.csv
+ ENTROPY:                      5.182 bits per byte
+ SIZE:                         5743.243 KB
+
+> jquery-3.6.0.js
+ ENTROPY:                      5.108 bits per byte
+ SIZE:                         292.442 KB
+
+> random.txt
+ ENTROPY:                      5.999 bits per byte
+ SIZE:                         97.656 KB
+
+
+
+>>> rzip (Linux Library: rzip / .rz)
+
+> bible.txt
+ COMP. SIZE:                   847.781 KB
+ RATIO:                        4.697
+ COMP. TIME (AVG):             0.620 sec
+ DECOMP. TIME (AVG):           3.884 sec
+
+> finance.csv
+ COMP. SIZE:                   242.766 KB
+ RATIO:                        23.657
+ COMP. TIME (AVG):             1.580 sec
+ DECOMP. TIME (AVG):           17.111 sec
+
+> jquery-3.6.0.js
+ COMP. SIZE:                   69.346 KB
+ RATIO:                        4.217
+ COMP. TIME (AVG):             0.124 sec
+ DECOMP. TIME (AVG):           0.269 sec
+
+> random.txt
+ COMP. SIZE:                   73.997 KB
+ RATIO:                        1.319
+ COMP. TIME (AVG):             0.091 sec
+ DECOMP. TIME (AVG):           0.020 sec
+
+
+
+>>> bzip2 (Linux Library: bzip2 / .bz2)
+
+> bible.txt
+ COMP. SIZE:                   826.404 KB
+ RATIO:                        4.818
+ COMP. TIME (AVG):             0.520 sec
+ DECOMP. TIME (AVG):           0.426 sec
+
+> finance.csv
+ COMP. SIZE:                   184.996 KB
+ RATIO:                        31.045
+ COMP. TIME (AVG):             0.864 sec
+ DECOMP. TIME (AVG):           0.385 sec
+
+> jquery-3.6.0.js
+ COMP. SIZE:                   67.095 KB
+ RATIO:                        4.358
+ COMP. TIME (AVG):             0.046 sec
+ DECOMP. TIME (AVG):           0.036 sec
+
+> random.txt
+ COMP. SIZE:                   73.910 KB
+ RATIO:                        1.321
+ COMP. TIME (AVG):             0.024 sec
+ DECOMP. TIME (AVG):           0.020 sec
+
+
+
+>>> Deflate (Linux Library: gzip / .gz)
+
+> bible.txt
+ COMP. SIZE:                   1151.132 KB
+ RATIO:                        3.459
+ COMP. TIME (AVG):             0.401 sec
+ DECOMP. TIME (AVG):           0.044 sec
+
+> finance.csv
+ COMP. SIZE:                   268.161 KB
+ RATIO:                        21.417
+ COMP. TIME (AVG):             0.105 sec
+ DECOMP. TIME (AVG):           0.043 sec
+
+> jquery-3.6.0.js
+ COMP. SIZE:                   83.276 KB
+ RATIO:                        3.511
+ COMP. TIME (AVG):             0.032 sec
+ DECOMP. TIME (AVG):           0.008 sec
+
+> random.txt
+ COMP. SIZE:                   73.915 KB
+ RATIO:                        1.321
+ COMP. TIME (AVG):             0.009 sec
+ DECOMP. TIME (AVG):           0.007 sec
+
+
+
+>>> LZMA (Linux Library: lzma / .lzma)
+
+> bible.txt
+ COMP. SIZE:                   865.520 KB
+ RATIO:                        4.600
+ COMP. TIME (AVG):             3.090 sec
+ DECOMP. TIME (AVG):           0.095 sec
+
+> finance.csv
+ COMP. SIZE:                   146.571 KB
+ RATIO:                        39.183
+ COMP. TIME (AVG):             9.275 sec
+ DECOMP. TIME (AVG):           0.046 sec
+
+> jquery-3.6.0.js
+ COMP. SIZE:                   72.003 KB
+ RATIO:                        4.061
+ COMP. TIME (AVG):             0.190 sec
+ DECOMP. TIME (AVG):           0.016 sec
+
+> random.txt
+ COMP. SIZE:                   74.962 KB
+ RATIO:                        1.302
+ COMP. TIME (AVG):             0.073 sec
+ DECOMP. TIME (AVG):           0.017 sec
+
+
+
